@@ -1,0 +1,22 @@
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 0;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar .menu {
+	display: flex;
+	gap: 10px;
+}
+
+.navbar a,
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+	text-decoration: none;
+	color: inherit;
+}
